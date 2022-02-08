@@ -42,7 +42,7 @@ jobs:
         run: |
           npm install
           npm test
-        env:  Build-and-Push-Docker-Image:
+    env:  Build-and-Push-Docker-Image:
     runs-on: ubuntu-latest
     needs: test
     name: Docker Build, Tag, Push
